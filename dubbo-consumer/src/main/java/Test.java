@@ -12,6 +12,7 @@ public class Test {
 
 //        String get_url = "http://localhost:8080/seckillcs/seckill?name="+name;
         String get_url = "http://localhost:8080/seckillcs/preselection?name="+name;
+        get_url = "http://localhost:8080/usercs/selectUsername?userName="+name;
         URL url = new URL(get_url);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
         connection.connect();

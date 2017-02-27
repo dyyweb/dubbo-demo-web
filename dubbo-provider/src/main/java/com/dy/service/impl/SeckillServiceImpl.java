@@ -8,7 +8,7 @@ import java.util.Date;
 /**
  * Created by dy on 16-4-18.
  */
-@Service
+@Service(protocol = "dubbo")
 public class SeckillServiceImpl implements SeckillService {
 
     public String doSeckill(String name, Date time){

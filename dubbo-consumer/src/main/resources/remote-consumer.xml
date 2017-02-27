@@ -13,9 +13,11 @@
     <dubbo:application name="dubbo-consumer"  />
 
     <!-- 使用zookeeper广播注册中心暴露发现服务地址-->
-    <dubbo:registry address="zookeeper://10.7.13.236:2181" />
+    <dubbo:registry address="zookeeper://10.7.13.244:2181" />
 
     <bean id="springContextUtil " class="com.dy.system.SpringContextUtil" scope="singleton"/>
+
+    <dubbo:protocol name="dubbo" port="-1" />
 
     <!--<dubbo:monitor protocol="registry"/>-->
 </beans>
