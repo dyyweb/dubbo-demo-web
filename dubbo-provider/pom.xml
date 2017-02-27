@@ -59,6 +59,12 @@
       <groupId>com.alibaba</groupId>
       <artifactId>dubbo</artifactId>
       <version>3.8.4</version>
+      <exclusions>
+        <exclusion>
+          <groupId>tf56</groupId>
+          <artifactId>sofa</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>com.github.sgroschupf</groupId>
