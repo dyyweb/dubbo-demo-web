@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dubbo-provider/target/dubbo-provider/WEB-INF/lib/zkclient-0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dubbo-provider/target/dubbo-provider/WEB-INF/lib/jline-0.9.94.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dubbo-provider/target/dubbo-provider/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dubbo-provider/target/dubbo-provider/WEB-INF/lib/dubbo-2.5.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dubbo-provider/target/dubbo-provider/WEB-INF/lib/spring-2.5.6.SEC03.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dubbo-provider/target/dubbo-provider/WEB-INF/lib/zookeeper-3.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dubbo-provider/target/dubbo-provider/WEB-INF/lib/log4j-1.2.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dubbo-provider/target/dubbo-provider/WEB-INF/lib/javassist-3.15.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dubbo-provider/target/dubbo-provider/WEB-INF/lib/netty-3.2.5.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

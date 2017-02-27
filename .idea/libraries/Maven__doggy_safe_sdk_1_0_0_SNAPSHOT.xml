@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: doggy.safe:sdk:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/doggy/safe/sdk/1.0.0-SNAPSHOT/sdk-1.0.0-20161214.032708-17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/doggy/safe/sdk/1.0.0-SNAPSHOT/sdk-1.0.0-20161214.032708-17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/doggy/safe/sdk/1.0.0-SNAPSHOT/sdk-1.0.0-20161214.032708-17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

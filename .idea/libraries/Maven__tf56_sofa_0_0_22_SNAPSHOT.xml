@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: tf56:sofa:0.0.22-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/tf56/sofa/0.0.22-SNAPSHOT/sofa-0.0.22-20160607.113136-12.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/tf56/sofa/0.0.22-SNAPSHOT/sofa-0.0.22-20160607.113136-12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/tf56/sofa/0.0.22-SNAPSHOT/sofa-0.0.22-20160607.113136-12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
