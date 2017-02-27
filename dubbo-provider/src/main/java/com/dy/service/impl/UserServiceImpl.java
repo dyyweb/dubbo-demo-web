@@ -1,5 +1,7 @@
 package com.dy.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
+import com.dy.entity.User;
 import com.dy.service.CallbackListener;
 import com.dy.service.UserService;
 
@@ -9,9 +11,10 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * Created by Administrator on 2016/3/31.
  */
+@Service
 public class UserServiceImpl implements UserService {
 
-    public final Map<String,CallbackListener> listenerMap = new ConcurrentHashMap<>();
+    public final Map<String,CallbackListener> listenerMap = new ConcurrentHashMap<String,CallbackListener>();
 
     public String selectUserName(String username) {
         return "哈哈我是:"+username;
@@ -28,5 +31,11 @@ public class UserServiceImpl implements UserService {
     public void addUserName(String username, CallbackListener listener) {
         listenerMap.put(username, listener);
         listener.changed(username);
+    }
+
+    @Override
+    public User registerUser(User user) {
+        System.out.println("恭喜你注册成功userName="+user.getUserName()+",age="+user.getAge());
+        return user;
     }
 }
